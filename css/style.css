@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #303030;
+
+    font-family: Arial;
+}
+
+form {
+    width: 430px;
+    height: 630px;
+    margin: 80px auto;
+
+    background: #FFFFFF;
+}
+
+p {
+    margin-bottom: 12px;
+    padding-top: 35px;
+    padding-left: 40px;
+
+    color: #648880;
+
+    font-size: 20px;
+}
+
+.name, .email, .comments, .pass{
+    margin-left: 40px;
+    padding-left: 15px;
+
+    color: #648880;
+    border: 1px solid #C6C9CC;
+    border-radius: 5px;
+    outline: none;
+
+    font-size: 20px;
+}
+
+.name, .email {
+    width: 81%;
+    height: 6.5%;
+}
+
+::-webkit-input-placeholder {
+    color: #A9A9A9;
+}
+
+.pass {
+    width: 17.4%;
+    height: 7.2%;
+}
+
+.comments {
+    width: 81%;
+    height: 15.5%;
+}
+
+.btn {
+    width: 170px;
+    height: 55px;
+    margin-top: 25px;
+    margin-left: 40px;
+
+    text-transform: uppercase;
+
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #648880;
+
+    font-size: 18px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
